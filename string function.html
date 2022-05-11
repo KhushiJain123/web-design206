@@ -1,0 +1,36 @@
+
+
+<html>
+<head>
+	<title>New Document</title>
+<script>
+	function stringfunc1(){
+		str1="hello";
+		str2="world";
+
+        //charAt function
+        document.write(str1.charAt(4)+ "<br>");
+
+        //slice function
+        document.write(str1.slice(0,4)+ "<br>");
+
+        //uppercase function
+        document.write(str2.toUpperCase()+ "<br>");
+
+        //lowercase function
+        str3="Khushi";
+        document.write(str3.toLowerCase()+ "<br>");
+
+        //cancat function
+        str=str1.concat(str2);
+        document.write((str)+ "<br>");
+
+        //trim function
+        document.write(str1.trim()+ "<br>")
+	}
+</script>
+</head>
+<body>
+	<input type="button" value="click me" onclick="stringfunc1()">
+</body>
+</html>
